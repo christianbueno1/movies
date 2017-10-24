@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 70%;
+    margin: 15px auto;
+    text-align: left;
+}
+img.img1 {
+    width: 320px;
+}
+figure img:hover {
+    opacity: 0.8;
+}
+header h1 {
+    font: 4em 'Anton', sans-serif;
+    color: #414239;
+}
+header h2 {
+    font: 2.5em 'Lobster' , cursive;
+    color: #9e0947;
+}
+.myarticle {
+    border: 1px dotted #d7d8cb;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+p.myclass {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div h3 {
+    font-size: 1em;
+    color: #ce105c;
+}
+div#reparto li[data-famoso="principal"]  {
+    font-weight: bold;
+}
+div#reparto li[data-famoso="secundario"] {
+    font-style: italic;
+}
+div#reparto li {
+    list-style: url(https://goo.gl/6hPSSH);
+}
+
+/* box model */
+figure {
+    display: inline-block;
+}
+div#sipnosis {
+    width: 480px;
+    display: inline-block;
+    vertical-align: top;
+}
+div#reparto {
+    display: inline-block;
+    margin: 5px 40px;
+    vertical-align: top;
+}
